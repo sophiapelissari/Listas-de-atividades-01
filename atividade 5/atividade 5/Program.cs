@@ -11,3 +11,5 @@ Console.WriteLine($"a porcenagem é: {nvn / 100} %");
 Console.WriteLine("digite o número de votos válidos aqui: ");
 nvv = int.Parse(Console.ReadLine());
 Console.WriteLine($"a porcenagem é: {nvv / 100} %");
+Console.WriteLine($"o total e votos foi de: {nvb + nvn + nvv} ");
+Console.ReadLine();   
